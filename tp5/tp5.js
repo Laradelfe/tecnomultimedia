@@ -1,3 +1,4 @@
+// https://youtu.be/fRv_nAMudnY?si=m0IjETWpexe5_pDH
 let juego;
 let estado = "start";
 let imagenPelota;
