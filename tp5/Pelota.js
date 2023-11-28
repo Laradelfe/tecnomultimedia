@@ -31,6 +31,9 @@ class Pelota {
   }
 
   checkladrillos(ladrillo) {
+    if(!ladrillo.visible){
+      return false;
+      }
     if (
       this.x - this.radio >= ladrillo.x + ladrillo.width ||
       this.x + this.radio <= ladrillo.x ||
