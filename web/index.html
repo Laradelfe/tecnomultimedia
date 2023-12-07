@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/papercss@1.9.2/dist/paper.min.css"
+    />
+    <link rel="stylesheet" href="estilos.css">
+    <title>Aventura</title>
+  </head>
+
+  <nav class="border fixed split-nav">
+    <div class="nav-brand">
+      <h3><a href="#inicio">INICIO</a></h3>
+    </div>
+    <div class="collapsible">
+      <input id="collapsible1" type="checkbox" name="collapsible1">
+      <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+      <div class="collapsible-body">
+        <ul class="inline">
+          <li><a href="#bitacora">BITACORA</a></li>
+          <li><a href="#bio">BIOGRAFIA</a></li>
+          <li><a href="#aventura">AVENTURA</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <body>
+    <div class="paper container">
+      <h1 id="inicio">Trabajo Final</h1>
+      <p>Bienvendios a el proceso de un trabajo final.</p>
+
+      
+      <div class="card" style="width: 20rem;">
+        <div class="card-body">
+          <h4 class="card-title">Cuento infantil</h4>
+          <img src="img/cuento.jpg" alt="Card example image">
+          <p class="card-text">Para este trabajo fue usado de base el cuento "La princesa y la rana" que pudes leer apartir de este link.</p>
+          <a class="card-link" href="https://www.mundoprimaria.com/cuentos-infantiles-cortos/el-principe-rana">Cuento</a>
+        </div>
+      </div>
+
+      <article class="article">
+        <h1 id="bitacora" ><p>Bitácora</p></h1>
+        <div>
+            <div><p>Este es un trabajo final de una alumna para la materia de tecnologias de la carrera de diseño multimedial de la fda unlp, del año 2023. A continuación veremos algunos pasos que siguió para llegar a esta página. </p></div>
+            <img src="img/prueba1.png" alt="imagen con pruebas del trabajo">
+            <div><p>Primero empecé a probar cosas nuevas en una página hecha anteriormente</p></div>
+            <img src="img/prueba2.png" alt="imagen con pruebas del trabajo">
+            <img src="img/prueba3.png" alt="imagen con pruebas del trabajo">
+            <div><p>Luego empecé a probar las herramientas que nos proporcionó la cátedra</p></div>
+            <img src="img/prueba4.png" alt="imagen con pruebas del trabajo">
+            <img src="img/prueba5.png" alt="imagen con pruebas del trabajo">
+            <div><p>Y seguí jugando con las cosas que se podían hacer. Hasta llegar al resultado deseado.</p></div>
+        </div>
+      
+        <div class="row">
+
+        </div>
+   
+      <div class="card" style="width: 20rem;">
+        <img src="img/yo.jpeg" alt="Card example image">
+      
+        <div class="card-body">
+          <h4 id="bio" class="card-title">Quien creó esta página</h4>
+          <p class="card-text">La creadora de esta pagina es una alumna de primer año de la carrera diseño multimedial de la fda unlp.</p>
+        </div>
+      </div>
+
+      <article class="article">
+        <h1>Aventura Gráfica</h1>
+        <p>En este apartado podrán adentrarse en la aventura gráfica, una parte de este trabajo hecha con codigos por la autora de esta página.</p>
+        <p>Antes de dejarlos ir a la aventura, mostraré algunas imagenes que se van a encontrar en la aventura.</p>
+        <img src="img/cuento1.jpeg" alt="imagen del cuento">
+        <img src="img/cuento2.jpeg" alt="imagen del cuento">
+        <img src="img/cuento3.jpeg" alt="imagen del cuento">
+      </article>
+      
+      <div id="aventura" class="row flex-spaces child-borders">
+        <label class="paper-btn margin" for="modal-2">AVENTURA GRAFICA</label>
+      </div>
+      <input class="modal-state" id="modal-2" type="checkbox">
+      <div class="modal">
+        <label class="modal-bg" for="modal-2"></label>
+        <div class="modal-body">
+          <label class="btn-close" for="modal-2">X</label>
+
+          <iframe src="tp_final/index.html" frameborder="0" width="600" height="800"></iframe>
+
+          <label for="modal-2" class="modal-link">Cerrar</label>
+        </div>
+      </div>
+    </div>
+    
+  </body>
+</html>

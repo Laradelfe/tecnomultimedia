@@ -1,0 +1,120 @@
+
+body {
+background-color: antiquewhite;
+font-family: Montserrat, serif;
+}
+h1 {
+    font-size: 40px;
+    color: black;
+
+
+}
+h1,h2,h3,h5{
+    color: black;
+
+}
+
+div {
+    width: 800px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: white;
+    height: 150px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+nav {
+    border-bottom: 4px solid black;
+}
+
+article {
+    background-color:white;
+    padding: 5px;
+    margin: 5px;
+}
+
+footer {
+    color: black;
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.destaca-texto {
+    color: black; 
+}
+
+.centrada {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.imagen-portada {
+    width: 100%;
+    height: auto;
+}
+
+nav li {
+    display: inline-block;
+    color: black;
+}
+
+nav a:hover {
+
+    color: black;
+    background-color: white;
+    padding: 15px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.celda{
+    display: flex;
+    gap: 10px;
+    background-color:white;
+
+}
+
+
+.columna{
+    border: 2px solid green;
+    text-align: center;
+}
+.columna img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+@media (max-width: 600px){
+    nav {
+        text-align: center;
+    }
+
+    nav a { 
+        padding: 8px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+    .celda{
+        width: 50%;
+        display: block;
+    }
+    .columna img {
+        max-width: 50%;
+        height: auto;
+    }
+
+}
